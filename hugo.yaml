@@ -133,7 +133,7 @@ params:
     intro: "Hi, my name is"
     title: "Motalleb."
     subtitle: "DevOps engineer."
-    content: "I design robust, maintainable systems with a focus on simplicity, performance, and reliability. My work centers on infrastructure automation, deployment pipelines, and service orchestration using tools like Jenkins, Go, Rust, Bash, and Nushell. I prioritize clarity, correctness, and long-term maintainability across all layers of the stack."
+    content: "I design systems that are simple, performant, reproducible, and reliable. I work on infrastructure automation, CI/CD, and service orchestration using tools like Jenkins, Go, Rust, Bash, and Nushell, with a strong focus on clarity and maintainability."
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -159,9 +159,8 @@ params:
     title: "About Me"
     image: "/images/hero.jpg"
     content: |
-      I'm a systems-focused software engineer specializing in infrastructure, automation, and backend tooling. With a background in computer science and a strong interest in systems design, I work at [Dornica org.](https://dornica.net), building scalable, maintainable platform solutions.
+      I'm a systems-focused software engineer building scalable, maintainable infrastructure and backend tooling at [Dornica](https://dornica.net). I focus on deployment efficiency and observability, designing fast, reproducible CI/CD pipelines with Jenkins and managing VM lifecycles at scale using Ansible for provisioning, configuration, and compliance.
 
-      My current focus is on designing tools that enhance deployment efficiency and system observability, enabling teams to operate services with greater confidence and reliability. I build multi-zone, fast and reproducible CI/CD pipelines with Jenkins and manage the lifecycle of hundreds of virtual machines using Ansible for provisioning, configuration, and compliance.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -172,32 +171,35 @@ params:
         - "Bash"
         - "Nushell"
         - "Ansible"
+        - "Kubernetes"
+        - "Minio"
+        - "Prometheus/Grafana"
+        - "ELK"
     # Experience
   experience:
     enable: true
-    # title: "Custom Name"
     items:
       - job: "DevOps Engineer"
         company: "Dornica"
         companyUrl: "https://dornica.net"
         date: "Apr 2024 - Present"
         content: |
-          - Designed and maintained multi-zone CI/CD pipelines using Jenkins.
-          - Automated provisioning and configuration of hundreds of VMs with Ansible.
-          - Developed internal tools in Go and Rust for deployment, monitoring, and diagnostics.
-          - Dockerized hundreds of PHP, Node.js, and Python applications for consistent deployment.
-          - Coordinated with external IT teams to achieve seamless deployments.
+          - Built and maintained multi-zone, fast, reproducible CI/CD pipelines using Jenkins.
+          - Automated provisioning, configuration, and compliance for 100+ VMs with Ansible.
+          - Developed deployment, monitoring, networking, and diagnostic tools in Go and Rust.
+          - Standardized application packaging by containerizing PHP, Node.js, and Python services.
+          - Coordinated with external IT teams for streamlined and reliable deployments.
       - job: "Senior Software Developer"
         company: "Hemend"
-        companyUrl: "https://example.com"
+        companyUrl: "https://hemend.com"
         info:
           enable: true
-          content: Software developer and Server administrator.
+          content: Software developer and server administrator.
         date: "June 2021 - Apr 2024"
         content: |
-          - Managed scalable, secure server environments for critical applications.
-          - Implemented automated monitoring and alerting to minimize downtime.
-          - Proficient in networking, security, and database administration.
+          - Managed secure, scalable server infrastructure for high-availability applications.
+          - Deployed monitoring and alerting systems to reduce downtime and improve visibility.
+          - Maintained expertise in networking, system security, and database operations.
 
   # Education
   education:
