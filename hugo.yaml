@@ -133,7 +133,7 @@ params:
     intro: "Hi, my name is"
     title: "Motalleb."
     subtitle: "DevOps engineer."
-    content: "I design robust, maintainable systems with a focus on simplicity, performance, and reliability. My work centers on infrastructure automation, deployment pipelines, and service orchestration using tools like Go, Rust, Bash, and Nushell. I prioritize clarity, correctness, and long-term maintainability across all layers of the stack."
+    content: "I design robust, maintainable systems with a focus on simplicity, performance, and reliability. My work centers on infrastructure automation, deployment pipelines, and service orchestration using tools like Jenkins, Go, Rust, Bash, and Nushell. I prioritize clarity, correctness, and long-term maintainability across all layers of the stack."
     image: /images/hero.jpg
     bottomImage:
       enable: true
@@ -333,6 +333,8 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-
-  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  customCSS: | # You can add custom scripts which will be added before </body> tag
+    <link rel="stylesheet" href="/style.css">
+  customScripts: | # You can add custom scripts which will be added before </body> tag
+    <link rel="stylesheet" href="/style.css">
   #  <script type="text/javascript"><!-- any script here --></script>
