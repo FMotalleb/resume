@@ -173,32 +173,31 @@ params:
         - "Nushell"
         - "Ansible"
     # Experience
-    experience:
-      enable: true
-      # title: "Custom Name"
-      items:
-        - job: "DevOps Engineer"
-          company: "Dornica"
-          companyUrl: "https://dornica.net"
-          date: "Apr 2024 - Present"
-          content: |
-            - Designed and maintained multi-zone CI/CD pipelines using Jenkins.
-            - Automated provisioning and configuration of hundreds of VMs with Ansible.
-            - Developed internal tools in Go and Rust for deployment, monitoring, and diagnostics.
-            - Dockerized hundreds of PHP, Node.js, and Python applications for consistent deployment.
-            - Coordinated with external IT teams to achieve seamless deployments.
-
-        - job: "Senior Software Developer"
-          company: "Hemend"
-          companyUrl: "https://example.com"
-          info:
-            enable: true
-            content: Software developer and Server administrator.
-          date: "June 2021 - Apr 2024"
-          content: |
-            - Managed scalable, secure server environments for critical applications.
-            - Implemented automated monitoring and alerting to minimize downtime.
-            - Proficient in networking, security, and database administration.
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "DevOps Engineer"
+        company: "Dornica"
+        companyUrl: "https://dornica.net"
+        date: "Apr 2024 - Present"
+        content: |
+          - Designed and maintained multi-zone CI/CD pipelines using Jenkins.
+          - Automated provisioning and configuration of hundreds of VMs with Ansible.
+          - Developed internal tools in Go and Rust for deployment, monitoring, and diagnostics.
+          - Dockerized hundreds of PHP, Node.js, and Python applications for consistent deployment.
+          - Coordinated with external IT teams to achieve seamless deployments.
+      - job: "Senior Software Developer"
+        company: "Hemend"
+        companyUrl: "https://example.com"
+        info:
+          enable: true
+          content: Software developer and Server administrator.
+        date: "June 2021 - Apr 2024"
+        content: |
+          - Managed scalable, secure server environments for critical applications.
+          - Implemented automated monitoring and alerting to minimize downtime.
+          - Proficient in networking, security, and database administration.
 
   # Education
   education:
