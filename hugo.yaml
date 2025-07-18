@@ -1,4 +1,4 @@
-baseURL: https://lil-moti.ir/
+baseURL: https://fmotalleb.is-a.dev/
 languageCode: en-us
 title: My Resume
 
@@ -13,14 +13,13 @@ outputs:
     - "HTML"
     - "RSS"
 
-    
 enableRobotsTXT: true
 
 #services:
-  #googleAnalytics:
-    #id: G-MEASUREMENT_ID
-  #disqus:
-    #shortname: your-disqus-shortname
+#googleAnalytics:
+#id: G-MEASUREMENT_ID
+#disqus:
+#shortname: your-disqus-shortname
 
 pagination:
   pagerSize: 3
@@ -32,28 +31,28 @@ markup:
 
 Menus:
   # main:
-    # - identifier: project
-    #   name: Projects
-    #   title: Projects
-    #   url: /projects
-    #   weight: 1
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+  # - identifier: project
+  #   name: Projects
+  #   title: Projects
+  #   url: /projects
+  #   weight: 1
+  #Dropdown menu
+  # - identifier: dropdown
+  #   title: Example dropdown menu
+  #   name: Dropdown
+  #   weight: 3
+  # - identifier: dropdown1
+  #   title: example dropdown 1
+  #   name: example 1
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 1
+  # - identifier: dropdown2
+  #   title: example dropdown 2
+  #   name: example 2
+  #   url: /#
+  #   parent: dropdown
+  #   weight: 2
 
 params:
   title: "Motalleb Fallahnezhad"
@@ -116,8 +115,8 @@ params:
     disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     enableSeparator: true
     menus:
       disableAbout: false
@@ -271,7 +270,7 @@ params:
             url: https://github.com/FMotalleb/nu_plugin_port_extension/
 
       - title: Nushell Desktop Notification Plugin
-        content: A Nushell plugin for sending desktop notifications using notify-rust. 
+        content: A Nushell plugin for sending desktop notifications using notify-rust.
         image: /images/projects/nushell.png
         badges:
           - "Nushell"
@@ -335,8 +334,10 @@ params:
     article: "Jan 2, 2006"
     articleList: "Jan 2, 2006"
     articleRecent: "Jan 2, 2006"
-  customCSS: | # You can add custom scripts which will be added before </body> tag
+  customCSS:
+    | # You can add custom scripts which will be added before </body> tag
     <link rel="stylesheet" href="/style.css">
-  customScripts: | # You can add custom scripts which will be added before </body> tag
+  customScripts:
+    | # You can add custom scripts which will be added before </body> tag
     <link rel="stylesheet" href="/style.css">
   #  <script type="text/javascript"><!-- any script here --></script>
