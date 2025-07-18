@@ -172,7 +172,8 @@ params:
         - "Ansible"
         - "Kubernetes"
         - "Minio"
-        - "Prometheus/Grafana"
+        - "Prometheus"
+        - "Grafana"
         - "ELK"
     # Experience
   experience:
