@@ -6,6 +6,7 @@
     radial-gradient(circle at 70% 70%, rgba(0, 255, 0, 0.1) 0%, transparent 35%), /* Green bottom-right */ 
     #000 /* Base */;
 }
+
 #content::before {
   content: "";
   position: absolute;
