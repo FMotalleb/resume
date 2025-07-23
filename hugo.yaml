@@ -164,17 +164,18 @@ params:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
+        - "Docker"
+        - "Kubernetes"
         - "Jenkins"
+        - "Ansible"
         - "Go"
         - "Rust"
-        - "Bash"
-        - "Nushell"
-        - "Ansible"
-        - "Kubernetes"
-        - "Minio"
         - "Prometheus"
         - "Grafana"
+        - "Minio"
         - "ELK"
+        - "Bash"
+        - "Nushell"
     # Experience
   experience:
     enable: true
@@ -332,13 +333,10 @@ params:
     emailText: "Check out this site"
 
   datesFormat:
-    article: "Jan 2, 2006"
-    articleList: "Jan 2, 2006"
-    articleRecent: "Jan 2, 2006"
-  customCSS:
-    | # You can add custom scripts which will be added before </body> tag
-    <link rel="stylesheet" href="/style.css">
-  customScripts:
-    | # You can add custom scripts which will be added before </body> tag
-    <link rel="stylesheet" href="/style.css">
-  #  <script type="text/javascript"><!-- any script here --></script>
+    article: "2006/Jan/2"
+    articleList: "2006/Jan/2"
+    articleRecent: "2006/Jan/2"
+
+  customScripts: |
+    <link rel="stylesheet" href="/css/override.css">
+    <link rel="stylesheet" href="/css/custom.css">
